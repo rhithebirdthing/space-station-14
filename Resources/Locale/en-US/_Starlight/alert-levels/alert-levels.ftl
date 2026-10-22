@@ -15,3 +15,7 @@ alert-level-psi-instructions = Avoid Hostile Cyborgs.
 alert-level-orange = Orange
 alert-level-orange-announcement = There is a critical station-wide structural or atmospheric threat and recovery is unlikely. Engineering staff are advised to minimize hazards and secure the Evacuation Dock. Crewmembers are advised to stay away from hazardous areas, and prepare for probable Evacuation.
 alert-level-orange-instructions = Avoid hazards and prepare for Evacuation.
+
+alert-level-alpha = Alpha
+alert-level-alpha-announcement = Everything is wrong, and nothing is how it should be; Nothing is wrong, and everything is how it should be.
+alert-level-alpha-instructions = Everything is how it should be.

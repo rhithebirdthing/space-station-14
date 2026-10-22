@@ -123,4 +123,16 @@
       emergencyLightColor: "#ff8119"
       forceEnableEmergencyLights: true
       shuttleTime: 600
+    alpha:
+      announcement: alert-level-alpha-announcement
+      selectable: false
+      sound:
+        path: /Audio/_Starlight/Admeme/static_horror.ogg
+        params:
+          volume: -2
+      disableSelection: true
+      color: "#aaaaaa"
+      emergencyLightColor: "#000000"
+      forceEnableEmergencyLights: true
+      shuttleTime: 1200
       # end starlight
