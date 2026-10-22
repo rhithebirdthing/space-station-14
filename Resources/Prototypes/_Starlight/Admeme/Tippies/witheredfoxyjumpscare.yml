@@ -1,0 +1,21 @@
+- type: entity
+  id: TippyWitheredFoxyJumpscare
+  categories: [HideSpawnMenu]
+  name: withered foxy jumpscare
+  parent: BaseItem
+  suffix: Admeme
+  components:
+    - type: Sprite
+      sprite: _Starlight/Admeme/Tippies/witheredfoxyjumpscare.rsi/
+      state: foxy
+      scale: 1, 1
+    - type: FootstepModifier
+      footstepSoundCollection:
+        collection: WitheredFoxyJumpscareCollection
+        params:
+          volume: 1
+
+- type: soundCollection
+  id: WitheredFoxyJumpscareCollection
+  files:
+  - /Audio/_Starlight/Admeme/fnaf2jumpscare.ogg

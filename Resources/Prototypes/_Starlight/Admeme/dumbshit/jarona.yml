@@ -1,0 +1,64 @@
+- type: soundCollection
+  id: JaronaCollection
+  files:
+    - /Audio/_Starlight/Admeme/dumbshit/jarona1.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/jarona2.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/jarona3.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/jarona4.ogg
+
+- type: soundCollection
+  id: FloweryCollection
+  files:
+    - /Audio/_Starlight/Admeme/dumbshit/flowers_blooms_in_your_heart.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/Flowery_2.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/here_I_come_San_Frandisco.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/hey_guys,_I_think_I_found_a_glue.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/leaf_it_to_me.ogg
+    - /Audio/_Starlight/Admeme/dumbshit/what_a_predictable_creature.ogg
+
+- type: entity
+  parent: [ PlushieMoth ]
+  id: JaronaPlush
+  name: moth plushie
+  suffix: Admeme
+  description: Jarona!
+  components:
+  - type: UseDelay
+    delay: 2.0 # flowery's voice clips are longgggg
+  - type: EmitSoundOnUse
+    sound:
+      collection: FloweryCollection
+      params:
+        volume: -4
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Starlight/Admeme/dumbshit/I'm_falling.ogg
+      params:
+        volume: -4
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FloweryCollection
+      params:
+        volume: -4
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FloweryCollection
+      params:
+        volume: -4
+  - type: EmitSoundOnCollide
+    sound:
+      collection: JaronaCollection
+      params:
+        volume: -4
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    soundHit:
+      collection: JaronaCollection
+      params:
+        volume: -4
+  - type: Edible
+    requiresSpecialDigestion: true
+    useSound:
+      path: /Audio/_Starlight/Admeme/dumbshit/they're_eating_my_flesh.ogg
+      params:
+        volume: -4
