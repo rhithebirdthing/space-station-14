@@ -17,5 +17,5 @@ alert-level-orange-announcement = There is a critical station-wide structural or
 alert-level-orange-instructions = Avoid hazards and prepare for Evacuation.
 
 alert-level-alpha = Alpha
-alert-level-alpha-announcement = Everything is wrong, and nothing is how it should be; Nothing is wrong, and everything is how it should be.
-alert-level-alpha-instructions = Everything is how it should be.
+alert-level-alpha-announcement = Everything is right, and nothing is how it shouldn't be; Nothing is wrong, and everything is how it should be.
+alert-level-alpha-instructions = Continue as normal.

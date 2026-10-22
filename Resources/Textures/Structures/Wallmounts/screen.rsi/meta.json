@@ -184,6 +184,30 @@
 		  0.3
         ]
       ]
+    },
+    {
+      "name": "alpha",
+      "copyright": "rhithebirdthing, derived from green/yellow",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          1.5
+        ]
+      ]
     }
   ]
 }

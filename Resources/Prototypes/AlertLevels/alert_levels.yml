@@ -127,7 +127,7 @@
       announcement: alert-level-alpha-announcement
       selectable: false
       sound:
-        path: /Audio/_Starlight/Admeme/static_horror.ogg
+        path: /Audio/_Starlight/Admeme/alpha.ogg
         params:
           volume: -2
       disableSelection: true

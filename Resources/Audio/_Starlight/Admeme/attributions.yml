@@ -33,20 +33,22 @@
   copyright: "made by stickycheZ101"
   source: "https://github.com/stickycheZ101"
 
-- files: [ "horror_announcement_cult.ogg" ]
+- files: ["horror_announcement_cult.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "made by Vincolan"
   source: "https://github.com/VINCOLAN"
 
-- files: [ "horror_announcement_cult_laugh.ogg" ]
+- files: ["horror_announcement_cult_laugh.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "made by Vincolan"
   source: "https://github.com/VINCOLAN"
 
-- files: [ "horror_announcement_cult_short.ogg" ]
+- files: ["horror_announcement_cult_short.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: "made by Vincolan"
   source: "https://github.com/VINCOLAN"
 
-
-
+- files: ["alpha.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "rhithebirdthing, edited from /Audio/Announcements/announce.ogg by Darkrell"
+  source: "https://github.com/ss14Starlight"
