@@ -192,3 +192,6 @@ chatsan-replacement-68 = i don't know
 
 chatsan-word-69 = wya
 chatsan-replacement-69 = where you at
+
+chatsan-word-70 = fym
+chatsan-replacement-70 = fuck you mean
