@@ -160,5 +160,8 @@
 - files: ["Shuttles/ShuttleEvent/syndie_evacpod.yml"]
   authors: TheShuEd
 
+- files: ["Shuttles/ShuttleEvent/syndie_shuttlecraft.yml"]
+  authors: rhithebirdthing
+
 - files: ["Shuttles/ShuttleEvent/traveling_china_cuisine.yml"]
   authors: TheShuEd
