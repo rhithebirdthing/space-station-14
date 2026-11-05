@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: AnnoyingPointer
+  name: plastic arrow
+  description: For gently bothering people.
+  suffix: Admeme, DO NOT MAP
+  components:
+    - type: MeleeWeapon
+      wideAnimationRotation: -135
+      attackRate: 10
+      soundHit:
+        path: /Audio/Misc/woosh.ogg
+      damage:
+        types:
+          Brute: 0
+    - type: Sprite
+      sprite: Interface/Misc/pointing.rsi
+      state: pointing
+    - type: Item
+      sprite: Interface/Misc/pointing.rsi
+      state: pointing
+      size: Tiny
