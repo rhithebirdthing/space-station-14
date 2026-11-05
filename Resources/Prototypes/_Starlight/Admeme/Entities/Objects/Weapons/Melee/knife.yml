@@ -1,15 +1,16 @@
 - type: entity
   parent: KitchenKnife
   id: TrueKnife
-  name: True Knife
+  name: true knife
   description: it's like theyr some king of [color=red]megalomaniac[/color]
   suffix: Admeme, DO NOT MAP
   components:
     - type: MeleeWeapon
       wideAnimationRotation: -135
+      attackRate: 0.25 #25dps is still appreciably busted but not BROKEN broken. being able to do it all at once is still kinda broken but it's an admeme so w/e
       damage:
         types:
-          Slash: 999
+          Slash: 99
       soundHit:
         path: /Audio/Weapons/bladeslice.ogg
     - type: Sprite
