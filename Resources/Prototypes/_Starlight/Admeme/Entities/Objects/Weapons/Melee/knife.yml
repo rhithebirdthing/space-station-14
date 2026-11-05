@@ -1,0 +1,21 @@
+- type: entity
+  parent: KitchenKnife
+  id: TrueKnife
+  name: True Knife
+  description: it's like theyr some king of [color=red]megalomaniac[/color]
+  suffix: Admeme, DO NOT MAP
+  components:
+    - type: MeleeWeapon
+      wideAnimationRotation: -135
+      damage:
+        types:
+          Slash: 999
+      soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+    - type: Sprite
+      sprite: _Starlight/Admeme/Objects/Weapons/Melee/true_knife.rsi
+      state: icon
+    - type: Item
+      sprite: _Starlight/Admeme/Objects/Weapons/Melee/true_knife.rsi
+      storedOffset: -1,1
+      storedRotation: -45
