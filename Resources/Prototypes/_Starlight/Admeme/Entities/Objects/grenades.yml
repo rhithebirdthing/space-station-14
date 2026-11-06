@@ -1,0 +1,54 @@
+- type: entity
+  parent: [ScatteringGrenadeBase, TimerGrenadeBase]
+  id: GrenadeUrist
+  name: uristnade
+  description: Releases a whole bunch of oddly generic humans.
+  suffix: Admeme
+  components:
+  - type: Sprite
+    sprite: _Starlight/Admeme/Objects/Grenades/uristnade.rsi/ #todo: sprite
+    layers:
+    - state: icon
+      map: ["Base"]
+    - state: primed
+      map: ["enum.TriggerVisualLayers.Base"]
+  - type: ScatteringGrenade
+    fillPrototype: MobHuman
+    capacity: 12
+    velocity: 0
+  - type: TimerTrigger
+    beepSound:
+      path: "/Audio/Effects/beep1.ogg"
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2
+  - type: EmitSoundOnTrigger
+    keysIn:
+    - timer
+    sound:
+      collection: MaleScreams
+    positional: true
+
+- type: entity
+  parent: SmokeGrenade
+  id: SufferGasGrenade
+  name: razorium gas grenade
+  description: We're no longer asking.
+  suffix: Admeme
+  components:
+  - type: Sprite
+    sprite: _Starlight/Admeme/Objects/Grenades/suffer_gas.rsi
+  - type: SmokeOnTrigger
+    keysIn:
+    - timer
+    duration: 30
+    spreadAmount: 30
+    smokePrototype: TearGasSmokeWhite
+    solution:
+      reagents:
+      - ReagentId: Razorium
+        Quantity: 40
+  - type: StaticPrice
+    price: 500
+  - type: EorgPreventTrigger

@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": "CC-BY-NC-SA-3.0",
-  "copyright": "Taken from goonstation at https://github.com/goonstation/goonstation/pull/13630. Inhands by TiniestShark (github)",
+  "license": "CC-BY-SA-3.0",
+  "copyright": "modified from /_Starlight/Objects/Weapons/Grenades/toxic_gas.rsi/ by rhithebirdthing",
   "size": {
     "x": 32,
     "y": 32
