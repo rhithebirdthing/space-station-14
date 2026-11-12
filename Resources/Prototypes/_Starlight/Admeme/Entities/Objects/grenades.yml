@@ -6,7 +6,7 @@
   suffix: Admeme
   components:
   - type: Sprite
-    sprite: _Starlight/Admeme/Objects/Grenades/uristnade.rsi/ #todo: sprite
+    sprite: _Starlight/Admeme/Objects/Weapons/Grenades/uristnade.rsi/ #todo: sprite
     layers:
     - state: icon
       map: ["Base"]
@@ -38,7 +38,7 @@
   suffix: Admeme
   components:
   - type: Sprite
-    sprite: _Starlight/Admeme/Objects/Grenades/suffer_gas.rsi
+    sprite: _Starlight/Admeme/Objects/Weapons/Grenades/suffer_gas.rsi
   - type: SmokeOnTrigger
     keysIn:
     - timer
@@ -51,4 +51,29 @@
         Quantity: 40
   - type: StaticPrice
     price: 500
+  - type: EorgPreventTrigger
+
+- type: entity
+  parent: SmokeGrenade
+  id: FentCrystalGasGrenade
+  name: phenyl-crystal gas grenade
+  description: If you breathe it in, the Quartermaster is legally required to sell you for profit.
+  suffix: Admeme
+  components:
+  - type: Sprite
+    sprite: _Starlight/Admeme/Objects/Weapons/Grenades/suffer_gas.rsi
+  - type: SmokeOnTrigger
+    keysIn:
+    - timer
+    duration: 30
+    spreadAmount: 30
+    smokePrototype: TearGasSmokeWhite
+    solution:
+      reagents:
+      - ReagentId: Phenylpiperdine
+        Quantity: 5
+      - ReagentId: Tricordrazine
+        Quantity: 1
+  - type: StaticPrice
+    price: 500000
   - type: EorgPreventTrigger
